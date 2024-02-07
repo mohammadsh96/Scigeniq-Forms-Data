@@ -1,0 +1,64 @@
+/* FormDataComponent.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .data-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .data-item {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .data-item:nth-child(even) {
+    background-color: #e0e0e0;
+  }
+  .error {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .table-container {
+    margin-top: 20px;
+    border: 2px solid rgb(217, 0, 0);
+
+  }
+  
+  .table-container table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid black;
+
+  }
+  
+  .table-container th, .table-container td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+  
+  .table-container th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  #excel{
+    color: rgb(137, 237, 137);
+    background-color: rgb(223, 255, 255);
+    font-weight: 600;
+  }
+  #logout{
+    color: red;
+  }
